@@ -57,3 +57,122 @@ html {
   color: #333;
   border-color: #333;
 }
+
+.search {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  overflow-y: scroll;
+  background-color: rgba(220, 220, 220, 0.6);
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+.search > div > a {
+  width: 30%;
+  height: 0;
+  padding-bottom: 19.8%;
+  overflow: hidden;
+  margin-bottom: 3%;
+  border: 2px solid #333;
+  border-radius: 4px;
+  color: #333;
+  text-decoration: none;
+}
+
+.search > div > a {
+  width: 100%;
+  padding-bottom: 70%;
+  height: 0;
+  overflow: inherit;
+  margin-bottom: inherit;;
+  border: none;
+  border-radius: inherit;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #FAFAFA;
+  padding: 8px 30px;
+}
+
+header > h1 {
+  font-family: Skia;
+  font-weight: normal;
+  color: #612333;
+  margin: 0;
+}
+
+header > h1 > a {
+  color: #612333;
+  text-decoration: none;
+}
+
+header > h2 {
+  font-weight: normal;
+  margin: 0;
+}
+
+header > h2 > a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.search > header + div {
+  margin-top: 30px;
+}
+
+.card {
+  float: left;
+  margin-right: 2%;
+  border: 2px solid #333;
+  border-radius: 4px;
+  text-align: left;
+  width: 32%;
+  height: 0;
+  padding-bottom: 19.8%;
+  overflow: hidden;
+  margin-bottom: 2%;
+}
+
+.card:nth-child(3n), .search > div > a:nth-child(3n) > .card {
+  margin-right: 0;
+}
+
+.card > img {
+  width: 46%;
+  float: left;
+}
+
+.card > div{
+  display: block;
+  float: right;
+  width: 52%;
+}
+
+.card > div > h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.card > div > h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #666;
+  font-size: 13px;
+}
+
+.card > div > p {
+  margin: 0;
+  font-size: 13px;
+}
