@@ -1,0 +1,150 @@
+{
+    "shows": [{
+        "title": "The Dark Knight",
+        "year": "2008",
+        "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the Dark Knight must come to terms with one of the greatest psychological tests of his ability to fight injustice.",
+        "poster": "dk.jpg",
+        "imdbID": "tt0468569",
+        "trailer": "_PZpmTj1Q8Q"
+    }, {
+        "title": "Django Unchained",
+        "year": "2012",
+        "description": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
+        "poster": "du.jpg",
+        "imdbID": "tt1853728",
+        "trailer": "_iH0UBYDI4g"
+    }, {
+        "title": "Sholay",
+        "year": "1975",
+        "description": "After his family is murdered by a notorious and ruthless bandit, a former police officer enlists the services of two outlaws to capture the bandit.",
+        "poster": "sh.jpg",
+        "imdbID": "tt0073707",
+        "trailer": "0wYKgVj6L-s"
+    }, {
+        "title": "Dilwale",
+        "year": "2015",
+        "description": "Rival gang affiliations cannot keep two pairs of lovers apart - or can they?",
+        "poster": "dl.jpg",
+        "imdbID": "tt4535650",
+        "trailer": "AHuOo1DLcRc"
+    }, {
+        "title": "The Godfather",
+        "year": "1972",
+        "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+        "poster": "gf.jpg",
+        "imdbID": "tt0068646",
+        "trailer": "5DO-nDW43Ik"
+    }, {
+        "title": "Goodfellas",
+        "year": "1990",
+        "description": "The story of Henry Hill and his life through the teen years into the years of mafia, covering his relationship with wife Karen Hill and his Mob partners Jimmy Conway and Tommy DeVitto in the Italian-American crime syndicate.",
+        "poster": "go.jpg",
+        "imdbID": "tt0099685",
+        "trailer": "CeUhXYmGKU4"
+    }, {
+        "title": "The Shawshank Redemption",
+        "year": "1994",
+        "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "poster": "sr.jpg",
+        "imdbID": "tt0111161",
+        "trailer": "NmzuHjWmXOc"
+    }, {
+        "title": "Dangal",
+        "year": "2016",
+        "description": "Former wrestler Mahavir Singh Phogat and his two wrestler daughters struggle towards glory at the Commonwealth Games in the face of societal oppression.",
+        "poster": "dg.jpg",
+        "imdbID": "tt5074352",
+        "trailer": "x_7YlGv9u1g"
+    }, {
+        "title": "Baahubali: The Beginning",
+        "year": "2015",
+        "description": "In ancient India, an adventurous and daring man becomes involved in a decades old feud between two warring people.",
+        "poster": "bb1.jpg",
+        "imdbID": "tt2631186",
+        "trailer": "sOEg_YZQsTI"
+    }, {
+        "title": "Baahubali 2: The Conclusion",
+        "year": "2017",
+        "description": "When Shiva, the son of Bahubali, learns about his heritage, he begins to look for answers. His story is juxtaposed with past events that unfolded in the Mahishmati Kingdom.",
+        "poster": "bb2.jpg",
+        "imdbID": "tt4849438",
+        "trailer": "G62HrubdD6o"
+    }, {
+        "title": "The Vow",
+        "year": "2012",
+        "description": "A car accident puts Paige in a coma, and when she wakes up with severe memory loss, her husband Leo works to win her heart again.",
+        "poster": "tv.jpg",
+        "imdbID": "tt1606389",
+        "trailer": "PcL24s-S6ns"
+    }, {
+        "title": "Silver Linings Playbook",
+        "year": "2012",
+        "description": "After a stint in a mental institution, former teacher Pat Solitano moves back in with his parents and tries to reconcile with his ex-wife. Things get more challenging when Pat meets Tiffany, a mysterious girl with problems of her own.",
+        "poster": "slp.jpg",
+        "imdbID": "tt1045658",
+        "trailer": "Lj5_FhLaaQQ"
+    }, {
+        "title": "Joy",
+        "year": "2015",
+        "description": "Joy is the story of the title character, who rose to become founder and matriarch of a powerful family business dynasty.",
+        "poster": "jo.jpg",
+        "imdbID": "tt2446980",
+        "trailer": "uR-2TiQVY-k"
+    }, {
+        "title": "The Avengers",
+        "year": "2012",
+        "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity.",
+        "poster": "ta.jpg",
+        "imdbID": "tt0848228",
+        "trailer": "eOrNdBpGMv8"
+    }, {
+        "title": "Star Trek",
+        "year": "2009",
+        "description": "The brash James T. Kirk tries to live up to his father's legacy with Mr. Spock keeping him in check as a vengeful Romulan from the future creates black holes to destroy the Federation one planet at a time.",
+        "poster": "st.jpg",
+        "imdbID": "tt0796366",
+        "trailer": "pKFUZ10Wmbw"
+    }, {
+        "title": "Deadpool",
+        "year": "2016",
+        "description": "A fast-talking mercenary with a morbid sense of humor is subjected to a rogue experiment that leaves him with accelerated healing powers and a quest for revenge.",
+        "poster": "dp.jpg",
+        "imdbID": "tt1431045",
+        "trailer": "Xithigfg7dA"
+    }, {
+        "title": "Kal Ho Naa Ho",
+        "year": "2003",
+        "description": "Naina, an introverted, perpetually depressed girl's life changes when she meets Aman. But Aman has a secret of his own which changes their lives forever. Embroiled in all this is Rohit, Naina's best friend who conceals his love for her.",
+        "poster": "kh.jpg",
+        "imdbID": "tt0347304",
+        "trailer": "tVMAQAsjsOU"
+    }, {
+        "title": "Shutter Island",
+        "year": "2010",
+        "description": "In 1954, a U.S. marshal investigates the disappearance of a murderess who escaped from a hospital for the criminally insane.",
+        "poster": "si.jpg",
+        "imdbID": "tt1130884",
+        "trailer": "qdPw9x9h5CY"
+    }, {
+        "title": "Logan",
+        "year": "2017",
+        "description": "In the near future, a weary Logan cares for an ailing Professor X somewhere on the Mexican border. However, Logan's attempts to hide from the world and his legacy are upended when a young mutant arrives, pursued by dark forces.",
+        "poster": "lo.jpg",
+        "imdbID": "tt3315342",
+        "trailer": "Div0iP65aZo"
+    }, {
+        "title": "Se7en",
+        "year": "1995",
+        "description": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his modus operandi.",
+        "poster": "s7.jpg",
+        "imdbID": "tt0114369",
+        "trailer": "znmZoVkCjpI"
+    }, {
+        "title": "Fight Club",
+        "year": "1999",
+        "description": "An insomniac office worker, looking for a way to change his life, crosses paths with a devil-may-care soap maker, forming an underground fight club that evolves into something much, much more.",
+        "poster": "fc.jpg",
+        "imdbID": "tt0137523",
+        "trailer": "BdJKm16Co6M"
+    }]
+}
