@@ -6,14 +6,16 @@ class Card extends React.Component {
   render () {
     const { poster, title, year, description, imdbID } = this.props
     return (
-      <div className='card'>
-        <img src={`/public/img/posters/${poster}`} />
-        <div>
-          <h3>{title}</h3>
-          <h4>({year})</h4>
-          <p>{description}</p>
+      <Link to={`/details/${imdbID}`}>
+        <div className='card'>
+          <img src={`/public/img/posters/${poster}`} />
+          <div>
+            <h3>{title}</h3>
+            <h4>({year})</h4>
+            <p>{description}</p>
+          </div>
         </div>
-      </div>
+      </Link>
     )
   }
 }
