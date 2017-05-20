@@ -19,7 +19,7 @@ class Search extends React.Component {
   render () {
     return (
       <div className='search'>
-        <Header searchTerm={this.state.searchTerm} handleSearchTermChange={this.handleSearchTermChange} />
+        <Header showSearch searchTerm={this.state.searchTerm} handleSearchTermChange={this.handleSearchTermChange} />
         <div>
           {
             this.props.movies
