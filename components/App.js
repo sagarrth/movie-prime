@@ -15,7 +15,7 @@ function App () {
     <BrowserRouter>
       <Provider store={store}>
         <div className="app">
-          <Route exactly path='/' component={Home} />
+          <Route exact path='/' component={Home} />
           <Route path='/search' component={() => <Search movies={movieList.movies} />} />
           <Route path='/details/:id' component={
           	(props) => {

@@ -10,10 +10,6 @@ class Search extends React.Component {
     this.handleSearchTermChange = this.handleSearchTermChange.bind(this);
   }
 
-  handleSearchTermChange (event) {
-    this.setState({searchTerm: event.target.value})
-  }
-
   render () {
     return (
       <div className='search'>
