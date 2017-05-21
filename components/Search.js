@@ -5,11 +5,6 @@ import Header from './Header';
 import { arrayOf, shape, string } from 'prop-types';
 
 class Search extends React.Component {
-  constructor (props) {
-    super(props);
-    this.handleSearchTermChange = this.handleSearchTermChange.bind(this);
-  }
-
   render () {
     return (
       <div className='search'>
