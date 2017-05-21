@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { BrowserRouter, Match } from 'react-router';
+import { BrowserRouter, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './store';
 import Home from './Home';
@@ -15,11 +15,11 @@ function App () {
     <BrowserRouter>
       <Provider store={store}>
         <div className="app">
-          <Match exactly pattern='/' component={Home} />
-          <Match pattern='/search' component={() => <Search movies={movieList.movies} />} />
-          <Match pattern='/details/:id' component={
+          <Route exactly path='/' component={Home} />
+          <Route path='/search' component={() => <Search movies={movieList.movies} />} />
+          <Route path='/details/:id' component={
           	(props) => {
-          		const movies = movieList.movies.filter(movie => props.params.id === movie.imdbID);
+          		const movies = movieList.movies.filter(movie => props.match.params.id === movie.imdbID);
           		return <Details movie={movies[0]} {...props} />
           	}
           }/>
