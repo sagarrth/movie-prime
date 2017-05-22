@@ -9,9 +9,9 @@ const config = {
 	},
 	devServer: {
 		publicPath: '/public/',
-	    historyApiFallback: true,
+	  historyApiFallback: true,
 		port: 9001
-  	},
+  },
 	module: {
 		rules: [
 			{include: path.resolve(__dirname, 'components'), test: /\.(js)$/, use: 'babel-loader'},
