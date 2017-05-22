@@ -1,7 +1,7 @@
 {
   "name": "movie-prime",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Movie Database application using React, React-Router and Redux",
   "main": "components/App.js",
   "scripts": {
     "create": "webpack",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SagarRouth/movie-db.git"
+    "url": "git+https://github.com/SagarRouth/movie-prime.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SagarRouth/movie-db/issues"
+    "url": "https://github.com/SagarRouth/movie-prime/issues"
   },
-  "homepage": "https://github.com/SagarRouth/movie-db#readme",
+  "homepage": "https://github.com/SagarRouth/movie-prime#readme",
   "babel": {
     "presets": [
       "env",
