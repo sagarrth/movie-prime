@@ -8,8 +8,8 @@ class Details extends React.Component {
   componentDidMount () {
     if (!this.props.OMDBData.imdbRating) {
       this.props.dispatch(getOMDBDetails(this.props.movie.imdbID));
-    }   
-  }  
+    }
+  }
 
   render () {
     const { title, description, year, poster, trailer } = this.props.movie
@@ -30,7 +30,7 @@ class Details extends React.Component {
           <p>{description}</p>
         </section>
         <div>
-          <iframe src={`https://www.youtube-nocookie.com/embed/${trailer}?rel=0&amp;controls=0&amp;showinfo=0`} frameBorder='0' allowFullScreen />
+          <iframe src={`https://www.youtube.com/embed/${trailer}?rel=0&amp;controls=2&amp;showinfo=0`} frameBorder='0' allowFullScreen width="640" height="360"/>
         </div>
       </div>
     )
