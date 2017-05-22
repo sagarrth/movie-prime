@@ -26,7 +26,7 @@ class Search extends React.Component {
 }
 
 Search.propTypes = {
-  shows: arrayOf(shape({
+  movies: arrayOf(shape({
     title: string,
     description: string
   }))

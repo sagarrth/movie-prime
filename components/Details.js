@@ -48,7 +48,7 @@ class Details extends React.Component {
 }
 
 Details.propTypes = {
-	show: shape({
+	movie: shape({
 		title: string,
 		year: string,
 		poster: string,
