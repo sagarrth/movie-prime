@@ -20,19 +20,23 @@ class Home extends React.Component {
 		this.props.history.push('/search');
 	}
 
+	componentDidMount () {
+		this.props.dispatchSetSearchTerm("");
+	}
+
 	render () {
 		return (
 	    <div className='home'>
 	      <h1>Movie Prime</h1>
 	      <form onSubmit={this.handleSearchSubmit}>
-	      	<input type='text' placeholder='Search' 
+	      	<input type='text' placeholder='Search'
 	      		value={this.props.searchTerm} onChange={this.handleSearchTermChange}/>
 	      </form>
 	      <Link to='/search'>Browse All</Link>
 	    </div>
-	  )	
+	  )
 	}
-  
+
 }
 
 Home.propTypes = {
